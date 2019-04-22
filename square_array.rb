@@ -1,3 +1,4 @@
 def square_array(array)
-  return array.each {|number| number**2}
+  new_numbers = array.each {|number| number**2}
+  puts new_numbers
 end
